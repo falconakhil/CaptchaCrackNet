@@ -1,5 +1,5 @@
 import  { useState, useEffect } from 'react';
-import { categories } from './data/mockData';
+import { categories } from './data/Data';
 import { Dataset, CaptchaImage } from './types';
 import DatasetSelector from './components/DatasetSelector';
 import CaptchaDisplay from './components/CaptchaDisplay';

@@ -33,7 +33,7 @@ const CaptchaDisplay: React.FC<CaptchaDisplayProps> = ({
               <img 
                 src={captchaImage.imageUrl} 
                 alt="CAPTCHA" 
-                className="w-full h-20 object-contain"
+                className="w-full min-h-40 h-full object-contain"
                 style={{ 
                   backgroundImage: 'linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0), linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0)',
                   backgroundSize: '16px 16px',
